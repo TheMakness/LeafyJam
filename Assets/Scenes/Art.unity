@@ -451,14 +451,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 781519511468603228, guid: 5212612eb8bb0ed40ba9314f8c5f4784, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 35b3928bdf9cf7b40ac6132569e20510, type: 2}
-    - target: {fileID: 6579019767959458767, guid: 5212612eb8bb0ed40ba9314f8c5f4784, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 35b3928bdf9cf7b40ac6132569e20510, type: 2}
     - target: {fileID: 8427099755428452672, guid: 5212612eb8bb0ed40ba9314f8c5f4784, type: 3}
       propertyPath: m_Name
       value: WorkBench
