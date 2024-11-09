@@ -1,16 +1,29 @@
+using NUnit.Framework;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class CandleInteraction : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private Wax wax;
+    [SerializeField] private GameObject rotatingAnchor;
+    [SerializeField] List<Decoration> decorations = new List<Decoration>();
+
+
+    public void AddDecoration(Decoration decoration)
     {
-        
+        decorations.Add(decoration);
+        decoration.gameObject.transform.SetParent(rotatingAnchor.transform, true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RemoveDecoration(Decoration decoration)
     {
-        
+        decorations.Remove(decoration);
+        decoration.transform.SetParent(null, true);
+    }
+
+    public Vector3 GetPositionOnWax(Vector3 currentPos)
+    {
+        return wax.GetComponent<MeshCollider>().ClosestPoint(currentPos);
     }
 }

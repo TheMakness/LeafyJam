@@ -9,6 +9,7 @@ public class MouseInteraction : MonoBehaviour
     private Vector3 mouseDirection;
     private bool isObjectSelected;
     private bool isRotating;
+    private bool isDecorationSelected;
 
     private Vector3 m_prevPos;
     private Vector3 m_posDelta;
@@ -42,7 +43,50 @@ public class MouseInteraction : MonoBehaviour
             m_rotatingObject.RotateObject(m_posDelta);
         }
 
+        if (isDecorationSelected)
+        {
+            MoveDecoration();
+            if (Input.GetMouseButtonDown(0))
+            {
+                AddDecorationToCandle();
+            }
+        }
         m_prevPos = mousePosition;
+    }
+
+    private void AddDecorationToCandle()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(mousePosition);
+        RaycastHit hit;
+        bool raycastResult = Physics.Raycast(ray, out hit);
+        if (raycastResult)
+        {
+            SelectableObject newSelectObject = hit.transform.gameObject.GetComponent<SelectableObject>();
+            CandleInteraction candleInteraction = hit.transform.gameObject.GetComponent<CandleInteraction>();
+
+            if (newSelectObject && candleInteraction)
+            {
+                candleInteraction.AddDecoration(m_selectedObject.GetComponent<Decoration>());
+                ReleaseObject();
+            } 
+
+        }
+    }
+
+    private void MoveDecoration()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(mousePosition);
+        RaycastHit hit;
+        bool raycastResult = Physics.Raycast(ray, out hit);
+        if (raycastResult)
+        {
+            SelectableObject selectObject = hit.transform.gameObject.GetComponent<SelectableObject>();
+            CandleInteraction candleInteraction = hit.transform.gameObject.GetComponent<CandleInteraction>();
+
+            if (selectObject && candleInteraction)
+                m_selectedObject.Move(candleInteraction.GetPositionOnWax(hit.point));
+                
+        }
     }
 
     private void FollowMouse()
@@ -60,6 +104,10 @@ public class MouseInteraction : MonoBehaviour
         obj.gameObject.GetComponent<Collider>().enabled = false;
         isObjectSelected = true;
         m_selectedObject.ResetRotation();
+        if (m_selectedObject.GetComponent<Decoration>())
+        {
+            isDecorationSelected = true;
+        }
     }
 
     private void StartRotateObject(SelectableObject obj)
@@ -80,6 +128,7 @@ public class MouseInteraction : MonoBehaviour
     {
         isObjectSelected = false;
         m_selectedObject = null;
+        isDecorationSelected = false;
     }
 
     private void OnLeftMouseClick()
@@ -97,6 +146,11 @@ public class MouseInteraction : MonoBehaviour
                 ShelfCase shelfCase;
                 if (shelfCase = hit.transform.gameObject.GetComponent<ShelfCase>())
                 {
+                    if (isObjectSelected && !m_selectedObject.GetComponent<CandleInteraction>())
+                    {
+                        return;
+                    }
+
                     SelectableObject returnObject = shelfCase.Interact(m_selectedObject);
                     if (returnObject)
                     {
@@ -125,6 +179,25 @@ public class MouseInteraction : MonoBehaviour
                         {
                             bin.Delete(m_selectedObject.gameObject);
                             ReleaseObject();
+                        }
+                        else
+                        {
+                            DeskManager deskManager;
+                            deskManager = hit.transform.gameObject.GetComponent<DeskManager>();
+                            if (deskManager && isObjectSelected)
+                            {
+                                deskManager.SelectObject(m_selectedObject.gameObject);
+                                ReleaseObject();
+                            }
+                            else
+                            {
+                                DecorationSpawner decorationSpawner;
+                                decorationSpawner = hit.transform.gameObject.GetComponent<DecorationSpawner>();
+                                if (decorationSpawner && !isObjectSelected)
+                                {
+                                   SelectObject(Instantiate(decorationSpawner.Prefab,mousePosition,Quaternion.identity).GetComponent<SelectableObject>());
+                                }
+                            }
                         }
                     }
                 }
