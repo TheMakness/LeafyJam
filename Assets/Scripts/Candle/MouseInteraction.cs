@@ -4,9 +4,14 @@ using UnityEngine;
 public class MouseInteraction : MonoBehaviour
 {
     [SerializeField] private SelectableObject m_selectedObject;
+    [SerializeField] private SelectableObject m_rotatingObject;
     private Vector3 mousePosition;
     private Vector3 mouseDirection;
     private bool isObjectSelected;
+    private bool isRotating;
+
+    private Vector3 m_prevPos;
+    private Vector3 m_posDelta;
         
 
     private void Update()
@@ -15,35 +20,68 @@ public class MouseInteraction : MonoBehaviour
 
         if(Input.GetMouseButtonDown(0))
         {
-            OnClickMouse();
+            OnLeftMouseClick();
         }
 
+        if (Input.GetMouseButtonDown(1))
+        {
+            OnRightMouseClick();
+        }
+
+        if (!Input.GetMouseButton(1))
+            StopRotatingObject();
 
         if (isObjectSelected)
         {
-            Vector3 screenPos = new Vector3(mousePosition.x, mousePosition.y, Camera.main.WorldToScreenPoint(m_selectedObject.transform.position).z);
-            Vector3 newLocation = Camera.main.ScreenToWorldPoint(screenPos);
-            newLocation.z = m_selectedObject.transform.position.z;
-            m_selectedObject.Move(newLocation);
+            FollowMouse();
         }
+
+        if (isRotating) 
+        {
+            m_posDelta = mousePosition - m_prevPos;
+            m_rotatingObject.RotateObject(m_posDelta);
+        }
+
+        m_prevPos = mousePosition;
     }
 
- 
+    private void FollowMouse()
+    {
+        Vector3 screenPos = new Vector3(mousePosition.x, mousePosition.y, Camera.main.WorldToScreenPoint(m_selectedObject.transform.position).z);
+        Vector3 newLocation = Camera.main.ScreenToWorldPoint(screenPos);
+        newLocation.z = m_selectedObject.transform.position.z;
+        m_selectedObject.Move(newLocation);
+    }
+
     private void SelectObject(SelectableObject obj)
     {
         m_selectedObject = obj;
         obj.gameObject.GetComponent<Collider>().enabled = false;
         isObjectSelected = true;
+        m_selectedObject.ResetRotation();
+    }
+
+    private void StartRotateObject(SelectableObject obj)
+    {
+        m_rotatingObject = obj;
+        isRotating = true;
+    }
+
+    private void StopRotatingObject()
+    {
+        isRotating = false;
+        m_rotatingObject = null;
+        m_posDelta = Vector3.zero;
+        m_prevPos = Vector3.zero;
     }
 
     private void ReleaseObject()
     {
-       // m_selectedObject.gameObject.GetComponent<Collider>().enabled = true;
         isObjectSelected = false;
         m_selectedObject = null;
     }
 
-    private void OnClickMouse()
+    private void OnLeftMouseClick()
     {
         Ray ray = Camera.main.ScreenPointToRay(mousePosition);
         RaycastHit hit;
@@ -74,6 +112,24 @@ public class MouseInteraction : MonoBehaviour
             }
         }
             
+       
+    }
+
+    private void OnRightMouseClick()
+    {
+
+        Ray ray = Camera.main.ScreenPointToRay(mousePosition);
+        RaycastHit hit;
+        bool raycastResult = Physics.Raycast(ray, out hit);
+        if (raycastResult)
+        {
+            SelectableObject selectObject = hit.transform.gameObject.GetComponent<SelectableObject>();
+            if (selectObject && !isRotating)
+            {
+                StartRotateObject(selectObject);
+            }
+        }
+
        
     }
 
