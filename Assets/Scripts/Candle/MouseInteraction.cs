@@ -56,6 +56,7 @@ public class MouseInteraction : MonoBehaviour
     private void SelectObject(SelectableObject obj)
     {
         m_selectedObject = obj;
+        m_selectedObject.NewSelection();
         obj.gameObject.GetComponent<Collider>().enabled = false;
         isObjectSelected = true;
         m_selectedObject.ResetRotation();
@@ -109,7 +110,26 @@ public class MouseInteraction : MonoBehaviour
                        ReleaseObject();
                     }
                 }
+                else
+                {
+                    Container container;
+                    container = hit.transform.gameObject.GetComponent<Container>();
+                    if (container)
+                    container.Interact();
+
+                    else
+                    {
+                        Trashbin bin;
+                        bin = hit.transform.gameObject.GetComponent<Trashbin>();
+                        if (bin)
+                        {
+                            bin.Delete(m_selectedObject.gameObject);
+                            ReleaseObject();
+                        }
+                    }
+                }
             }
+            
         }
             
        

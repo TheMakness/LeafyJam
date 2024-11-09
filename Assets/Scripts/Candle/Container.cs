@@ -2,15 +2,12 @@ using UnityEngine;
 
 public class Container : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] private DeskManager m_manager;
+    [SerializeField] private GameObject m_prefab;
 
-    // Update is called once per frame
-    void Update()
+    public void Interact()
     {
-        
+        if (m_manager != null)
+            m_manager.SpawnObject(m_prefab);
     }
 }

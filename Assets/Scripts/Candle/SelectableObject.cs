@@ -1,12 +1,19 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SelectableObject : MonoBehaviour
 {
     [SerializeField] private GameObject rotationAnchor;
+    public UnityEvent EndEvent;
 
     public void Move(Vector3 position)
     {
         transform.position = position;
+    }
+
+    public void NewSelection()
+    {
+        EndEvent.Invoke();
     }
 
     public void RotateObject(Vector3 delta)
