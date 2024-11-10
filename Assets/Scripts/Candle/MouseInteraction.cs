@@ -1,6 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class MouseInteraction : MonoBehaviour
 {
@@ -86,7 +87,11 @@ public class MouseInteraction : MonoBehaviour
     {
         m_CurrentPhase = (Phase)((((int)m_CurrentPhase) + 1) % 2);
         if (currentselectedObject)
+        {
+            Mouse.current.WarpCursorPosition(Camera.main.WorldToScreenPoint(currentselectedObject.transform.position));
             SelectObject(currentselectedObject);
+        }
+            
         SwitchPhaseEvent.Invoke();
     }
 
