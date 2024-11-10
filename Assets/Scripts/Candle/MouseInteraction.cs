@@ -143,6 +143,7 @@ public class MouseInteraction : MonoBehaviour
         m_selectedObject.ResetRotation();
         if (m_selectedObject.GetComponent<Decoration>())
         {
+            S_AudioScript.s_Instance.Play("DecoEvent");
             isDecorationSelected = true;
         }
     }
@@ -183,6 +184,7 @@ public class MouseInteraction : MonoBehaviour
             {
                 if (!isDecorationSelected) //C'est une bougie
                 {
+                    S_AudioScript.s_Instance.Play("TakeCandle");
                     selectObject.gameObject.GetComponent<CandleInteraction>()?.ChangeWick();
                 }
 
@@ -196,6 +198,7 @@ public class MouseInteraction : MonoBehaviour
                     if (isMatchSelected)
                     {
                         shelfCase.m_ContainingObject.gameObject.GetComponent<CandleInteraction>().Ignite();
+                        S_AudioScript.s_Instance.Play("FireCandle");
                         return;
                     }
 
@@ -211,6 +214,7 @@ public class MouseInteraction : MonoBehaviour
                         returnObject.gameObject.GetComponent<CandleInteraction>().Extinguish();
                         if (isObjectSelected)
                         {
+                            S_AudioScript.s_Instance.Play("PutCandle");
                             ReleaseObject();
                         }
                         SelectObject(returnObject);
@@ -272,6 +276,7 @@ public class MouseInteraction : MonoBehaviour
                                         {
                                             SelectObject(Instantiate(matchJar.Prefab, mousePosition, Quaternion.identity ).GetComponent<SelectableObject>());
                                             isMatchSelected = true;
+                                            S_AudioScript.s_Instance.Play("CatchMatch");
                                         }
                                     }
                                 }

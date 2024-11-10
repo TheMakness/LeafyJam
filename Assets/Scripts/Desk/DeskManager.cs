@@ -52,6 +52,7 @@ public class DeskManager : MonoBehaviour
 
     public void UseButton()
     {
+        S_AudioScript.s_Instance.Play("Validate");
         m_mouseInteraction.SwitchPhase(m_selectableObject);
 
     }
