@@ -41,6 +41,11 @@ public class CameraMove : MonoBehaviour
 
     private void switchRotation()
     {
+        Invoke("switchBool", .5f);
+    }
+
+    public void switchBool()
+    {
         isRotating = true;
     }
 }

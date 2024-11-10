@@ -13078,6 +13078,7 @@ MonoBehaviour:
   m_CurrentPhase: 0
   m_selectedObject: {fileID: 0}
   m_rotatingObject: {fileID: 0}
+  m_ValidationPrefab: {fileID: 5086963660613847860, guid: fe3add2091c992a4ea91492861dcedd6, type: 3}
 --- !u!4 &1580238606
 Transform:
   m_ObjectHideFlags: 0

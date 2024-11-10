@@ -15,6 +15,7 @@ public class MouseInteraction : MonoBehaviour
     [SerializeField] private Phase m_CurrentPhase;
     [SerializeField] private SelectableObject m_selectedObject;
     [SerializeField] private SelectableObject m_rotatingObject;
+    [SerializeField] private GameObject m_ValidationPrefab;
     private Vector3 mousePosition;
     private Vector3 mouseDirection;
     private bool isObjectSelected;
@@ -85,13 +86,19 @@ public class MouseInteraction : MonoBehaviour
 
     public void SwitchPhase(SelectableObject currentselectedObject)
     {
-        m_CurrentPhase = (Phase)((((int)m_CurrentPhase) + 1) % 2);
+        
         if (currentselectedObject)
         {
             Mouse.current.WarpCursorPosition(Camera.main.WorldToScreenPoint(currentselectedObject.transform.position));
             SelectObject(currentselectedObject);
         }
-            
+        if (m_CurrentPhase == Phase.Phase1)
+        {
+            Instantiate(m_ValidationPrefab, m_selectedObject.transform.position, Quaternion.identity);
+        }
+        
+
+        m_CurrentPhase = (Phase)((((int)m_CurrentPhase) + 1) % 2);
         SwitchPhaseEvent.Invoke();
     }
 
