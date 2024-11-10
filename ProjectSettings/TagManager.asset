@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -41,6 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: 1Sky
+    uniqueID: 1919377833
+    locked: 0
+  - name: 2Clouds
+    uniqueID: 318479279
+    locked: 0
+  - name: 3BackgroundTrees
+    uniqueID: 1233255881
+    locked: 0
+  - name: 4Train
+    uniqueID: 1969296571
+    locked: 0
+  - name: 5ForegroundTrees
+    uniqueID: 1840997305
+    locked: 0
+  - name: 6FallingLeaves
+    uniqueID: 1318732901
+    locked: 0
   m_RenderingLayers:
   - Default
   - Light Layer 1
@@ -50,27 +68,3 @@ TagManager:
   - Light Layer 5
   - Light Layer 6
   - Light Layer 7
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
