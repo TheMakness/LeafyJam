@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: 7ff09d9edb146a1459b4573930bcac67, type: 2}
+  m_LightingDataAsset: {fileID: 112000002, guid: e5d914acd58955a488b3efc8ed927381, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -234,8 +234,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -355,8 +355,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -507,8 +507,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -707,8 +707,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -828,8 +828,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -949,8 +949,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -1070,8 +1070,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -1312,8 +1312,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -1433,8 +1433,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -1554,8 +1554,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -1675,8 +1675,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -1917,8 +1917,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -2038,8 +2038,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -2159,8 +2159,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -2280,8 +2280,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -2534,8 +2534,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -2570,11 +2570,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.091
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.051
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2728,12 +2728,17 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!4 &247164977 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+  m_PrefabInstance: {fileID: 1777579772}
+  m_PrefabAsset: {fileID: 0}
 --- !u!21 &254358467
 Material:
   serializedVersion: 8
@@ -2849,8 +2854,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -2970,8 +2975,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -3091,8 +3096,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -3212,8 +3217,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -3333,8 +3338,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -3454,12 +3459,85 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!1001 &315572956
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2000779852}
+    m_Modifications:
+    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Name
+      value: ShelfCase (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_size
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.48800004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
 --- !u!21 &327475800
 Material:
   serializedVersion: 8
@@ -3575,8 +3653,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -3850,8 +3928,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -3971,8 +4049,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -4092,8 +4170,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -4282,8 +4360,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -4427,8 +4505,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -4438,7 +4516,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
   m_PrefabInstance: {fileID: 220444615}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &467368791
+--- !u!1001 &469428779
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -4448,7 +4526,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_Name
-      value: ShelfCase (5)
+      value: ShelfCase (6)
       objectReference: {fileID: 0}
     - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_Size.x
@@ -4468,11 +4546,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.379
+      value: 0.091
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.26699996
+      value: 0.488
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4511,11 +4589,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
---- !u!4 &467368792 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-  m_PrefabInstance: {fileID: 467368791}
-  m_PrefabAsset: {fileID: 0}
 --- !u!21 &475775554
 Material:
   serializedVersion: 8
@@ -4631,8 +4704,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -4752,8 +4825,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -4873,8 +4946,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -4994,8 +5067,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -5115,90 +5188,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!1001 &552165047
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2000779852}
-    m_Modifications:
-    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Name
-      value: ShelfCase (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.z
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_size
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.732
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.526
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
---- !u!4 &552165048 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-  m_PrefabInstance: {fileID: 552165047}
-  m_PrefabAsset: {fileID: 0}
 --- !u!21 &562097006
 Material:
   serializedVersion: 8
@@ -5314,8 +5309,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -5435,8 +5430,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -5475,7 +5470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.051
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5629,8 +5624,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -5750,8 +5745,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -5871,8 +5866,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -5992,8 +5987,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -6113,8 +6108,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -6234,8 +6229,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -6504,12 +6499,85 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!1001 &638726101
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2000779852}
+    m_Modifications:
+    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Name
+      value: ShelfCase (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_size
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.091
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.936
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
 --- !u!21 &638956040
 Material:
   serializedVersion: 8
@@ -6625,8 +6693,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -6780,8 +6848,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -6933,90 +7001,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!1001 &716679135
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2000779852}
-    m_Modifications:
-    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Name
-      value: ShelfCase (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.z
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_size
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.379
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.526
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
---- !u!4 &716679136 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-  m_PrefabInstance: {fileID: 716679135}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &719541163
 GameObject:
   m_ObjectHideFlags: 0
@@ -7268,8 +7258,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -7389,8 +7379,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -7510,8 +7500,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -7700,8 +7690,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -7730,6 +7720,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_manager: {fileID: 1093984492}
   m_prefab: {fileID: 3755916402053631674, guid: 0469102b88acca4428bef351c5b2a2f4, type: 3}
+--- !u!4 &792972422 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+  m_PrefabInstance: {fileID: 315572956}
+  m_PrefabAsset: {fileID: 0}
 --- !u!21 &815978103
 Material:
   serializedVersion: 8
@@ -7845,8 +7840,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -7966,8 +7961,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -8087,8 +8082,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -8329,90 +8324,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!1001 &938974921
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2000779852}
-    m_Modifications:
-    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Name
-      value: ShelfCase (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.z
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_size
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.732
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.778
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
---- !u!4 &938974922 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-  m_PrefabInstance: {fileID: 938974921}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &976726295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8597,8 +8514,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -8718,8 +8635,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -8844,8 +8761,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -8965,90 +8882,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!1001 &1062179255
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2000779852}
-    m_Modifications:
-    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Name
-      value: ShelfCase (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.z
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_size
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.778
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
---- !u!4 &1062179256 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-  m_PrefabInstance: {fileID: 1062179255}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1078109794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9062,7 +8901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deskManager: {fileID: 1093984492}
-  color: {r: 1, g: 0, b: 0.7795243, a: 1}
+  color: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
   pelets:
   - {fileID: 1305006307}
   - {fileID: 1305006306}
@@ -9295,8 +9134,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -9610,8 +9449,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -9637,6 +9476,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18357812, y: 0.32137334, z: 0.17671588}
   m_Center: {x: 0.0023561642, y: 0.15670466, z: 0.0056111664}
+--- !u!4 &1199621365 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+  m_PrefabInstance: {fileID: 1242957969}
+  m_PrefabAsset: {fileID: 0}
 --- !u!21 &1218141279
 Material:
   serializedVersion: 8
@@ -9752,8 +9596,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -9873,8 +9717,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -10341,12 +10185,90 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!1001 &1242957969
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2000779852}
+    m_Modifications:
+    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Name
+      value: ShelfCase (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_size
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.379
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.936
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+--- !u!4 &1258350531 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+  m_PrefabInstance: {fileID: 469428779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!21 &1280487935
 Material:
   serializedVersion: 8
@@ -10462,8 +10384,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -10583,8 +10505,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -10709,8 +10631,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -11826,8 +11748,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -11947,8 +11869,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -12068,8 +11990,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -12189,8 +12111,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -12310,8 +12232,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -12431,8 +12353,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -12552,8 +12474,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -12732,12 +12654,17 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!4 &1490765684 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+  m_PrefabInstance: {fileID: 1588088976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!21 &1502268343
 Material:
   serializedVersion: 8
@@ -12853,8 +12780,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -12974,12 +12901,17 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!4 &1535271260 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+  m_PrefabInstance: {fileID: 638726101}
+  m_PrefabAsset: {fileID: 0}
 --- !u!21 &1567460069
 Material:
   serializedVersion: 8
@@ -13095,8 +13027,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -13165,6 +13097,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d32a71a9f277634794f9d70e164f31d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1588088976
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2000779852}
+    m_Modifications:
+    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Name
+      value: ShelfCase (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_size
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.936
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
 --- !u!21 &1610610200
 Material:
   serializedVersion: 8
@@ -13280,8 +13285,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -13401,8 +13406,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -13522,8 +13527,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -13764,8 +13769,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -13885,8 +13890,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -14006,8 +14011,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -14127,90 +14132,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!1001 &1676194100
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2000779852}
-    m_Modifications:
-    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Name
-      value: ShelfCase (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.z
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_size
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.732
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.267
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
---- !u!4 &1676194101 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-  m_PrefabInstance: {fileID: 1676194100}
-  m_PrefabAsset: {fileID: 0}
 --- !u!21 &1678830135
 Material:
   serializedVersion: 8
@@ -14326,90 +14253,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!1001 &1712706710
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2000779852}
-    m_Modifications:
-    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Name
-      value: ShelfCase (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.z
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_size
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.526
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
---- !u!4 &1712706711 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-  m_PrefabInstance: {fileID: 1712706710}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1718997363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14423,7 +14272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deskManager: {fileID: 1093984492}
-  color: {r: 1, g: 0, b: 0, a: 1}
+  color: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
   pelets:
   - {fileID: 1235092369}
   - {fileID: 1235092368}
@@ -14689,8 +14538,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -14810,90 +14659,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!1001 &1738432096
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2000779852}
-    m_Modifications:
-    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Name
-      value: ShelfCase (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.z
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_size
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.26699996
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
---- !u!4 &1738432097 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-  m_PrefabInstance: {fileID: 1738432096}
-  m_PrefabAsset: {fileID: 0}
 --- !u!21 &1738470793
 Material:
   serializedVersion: 8
@@ -15009,8 +14780,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -15130,8 +14901,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -15251,12 +15022,85 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!1001 &1777579772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2000779852}
+    m_Modifications:
+    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Name
+      value: ShelfCase (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_Size.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_size
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.379
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.48800004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
 --- !u!21 &1791517426
 Material:
   serializedVersion: 8
@@ -15372,8 +15216,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -15493,8 +15337,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -15759,8 +15603,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -15880,8 +15724,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -16001,8 +15845,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -16243,8 +16087,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -16279,11 +16123,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.732
+      value: -0.875
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.051
       objectReference: {fileID: 0}
     - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16437,8 +16281,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -16676,8 +16520,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -16797,8 +16641,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -16918,8 +16762,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -17160,8 +17004,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -17281,8 +17125,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -17438,17 +17282,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1282993389}
+  - {fileID: 792972422}
+  - {fileID: 1490765684}
   - {fileID: 1006391363}
+  - {fileID: 247164977}
+  - {fileID: 1199621365}
   - {fileID: 436095690}
-  - {fileID: 1676194101}
-  - {fileID: 552165048}
-  - {fileID: 938974922}
-  - {fileID: 2140030155}
-  - {fileID: 1062179256}
-  - {fileID: 716679136}
-  - {fileID: 1712706711}
-  - {fileID: 467368792}
-  - {fileID: 1738432097}
+  - {fileID: 1258350531}
+  - {fileID: 1535271260}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &2022988595
@@ -17566,8 +17407,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -17687,8 +17528,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -17808,8 +17649,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -17929,8 +17770,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -18050,8 +17891,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -18171,8 +18012,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -18292,8 +18133,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -18534,8 +18375,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.6886792, g: 0.20465466, b: 0.38107494, a: 1}
+    - _Color: {r: 0.6886792, g: 0.20465463, b: 0.3810749, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -18655,8 +18496,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -18776,8 +18617,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
@@ -18897,90 +18738,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0.7795243, a: 1}
-    - _Color: {r: 1, g: 0, b: 0.7795243, a: 1}
+    - _BaseColor: {r: 0.9245283, g: 0.39684942, b: 0.8101116, a: 1}
+    - _Color: {r: 0.9245283, g: 0.3968494, b: 0.8101116, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!1001 &2140030154
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2000779852}
-    m_Modifications:
-    - target: {fileID: 753677774793181555, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Name
-      value: ShelfCase (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1321025322118098014, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_Size.z
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2413451537910848863, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_size
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.379
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.778
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
---- !u!4 &2140030155 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8688147463491438387, guid: af5747f9ae82ee54fb4d5a3044c79c74, type: 3}
-  m_PrefabInstance: {fileID: 2140030154}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1564450876027317080
 Transform:
   m_ObjectHideFlags: 0
