@@ -37,6 +37,8 @@ public class S_AudioScript : MonoBehaviour
             s._Source.loop = s._Loop;
         }
 
+        Play("Theme");
+
     }
 
 
