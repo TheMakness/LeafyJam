@@ -12,6 +12,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_Cauldron
       objectReference: {fileID: 0}
+    - target: {fileID: 993669031763619082, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 993669031763619082, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 993669031763619082, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 993669031763619082, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.073
+      objectReference: {fileID: 0}
+    - target: {fileID: 993669031763619082, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2472389240574828076, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
       propertyPath: m_Height
       value: 0.3
@@ -32,6 +52,18 @@ PrefabInstance:
       propertyPath: rotatingAnchor
       value: 
       objectReference: {fileID: 701310784876272410}
+    - target: {fileID: 2808969223845392569, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
+      propertyPath: wick.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335207312063122040, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937635245926282024, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5282933578517073108, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
