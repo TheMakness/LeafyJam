@@ -51,6 +51,6 @@ public class ShelfCase : MonoBehaviour
 
     public void DropObjectIntoCase(SelectableObject interactObject)
     {
-        interactObject.Move(m_spawnPosition);
+        interactObject.Move(m_anchor.transform.position);
     }
 }

@@ -212,16 +212,17 @@ public class MouseInteraction : MonoBehaviour
                     if (returnObject)
                     {
                         returnObject.gameObject.GetComponent<CandleInteraction>().Extinguish();
+                        S_AudioScript.s_Instance.Play("PutCandle");
                         if (isObjectSelected)
                         {
-                            S_AudioScript.s_Instance.Play("PutCandle");
+                            
                             ReleaseObject();
                         }
                         SelectObject(returnObject);
                     }
                     else
                     {
-                        
+                        S_AudioScript.s_Instance.Play("PutCandle");
                         ReleaseObject();
                     }
                 }
@@ -230,13 +231,16 @@ public class MouseInteraction : MonoBehaviour
                     Container container;
                     container = hit.transform.gameObject.GetComponent<Container>();
                     if (container && m_CurrentPhase == Phase.Phase1)
+                    {
                         container.Interact();
+                        S_AudioScript.s_Instance.Play("PutCandle");
+                    }
 
                     else
                     {
                         Trashbin bin;
                         bin = hit.transform.gameObject.GetComponent<Trashbin>();
-                        if (bin)
+                        if (bin && isObjectSelected)
                         {
                             bin.Delete(m_selectedObject.gameObject);
                             ReleaseObject();
@@ -265,6 +269,7 @@ public class MouseInteraction : MonoBehaviour
                                     colorSelector = hit.transform.gameObject.GetComponent<ColorSelector>();
                                     if (colorSelector && m_CurrentPhase == Phase.Phase1)
                                     {
+                                        S_AudioScript.s_Instance.Play("DecoEvent");
                                         colorSelector.Interact();
                                     }
 
