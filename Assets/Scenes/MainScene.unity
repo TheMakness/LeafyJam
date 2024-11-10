@@ -188,9 +188,22 @@ MonoBehaviour:
     _PlayOnAwake: 0
     _Source: {fileID: 0}
     _AudioMixerGroup: {fileID: 24300002, guid: 22d64005f9ed999458ba0b63998007e9, type: 2}
-  - _Name: 
+  - _Name: DecoEvent
     _Clip:
-    - {fileID: 8300000, guid: b09b249081735f345bb13168fd9e65d9, type: 3}
+    - {fileID: 8300000, guid: 7de9bd0576b9f7a43a2daaded346ad6e, type: 3}
+    _Volume: 1
+    _Pitch: 1
+    _SpatialBlend: 1
+    _RolloffMode: 0
+    _MaxDistance: 0
+    _MinDistance: 0
+    _Loop: 0
+    _PlayOnAwake: 0
+    _Source: {fileID: 0}
+    _AudioMixerGroup: {fileID: 24300002, guid: 22d64005f9ed999458ba0b63998007e9, type: 2}
+  - _Name: OnFire
+    _Clip:
+    - {fileID: 8300000, guid: 644c8701c570e16458ebe07f33c28ee7, type: 3}
     _Volume: 1
     _Pitch: 1
     _SpatialBlend: 1
