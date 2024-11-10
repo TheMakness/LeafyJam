@@ -116,8 +116,13 @@ public class MouseInteraction : MonoBehaviour
             CandleInteraction candleInteraction = hit.transform.gameObject.GetComponent<CandleInteraction>();
 
             if (selectObject && candleInteraction)
+            {
                 m_selectedObject.Move(candleInteraction.GetPositionOnWax(hit.point));
-                
+                //rotate decoration to match hit point normal
+                m_selectedObject.transform.rotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
+            }
+
+
         }
     }
 
@@ -236,7 +241,7 @@ public class MouseInteraction : MonoBehaviour
                         {
                             DeskManager deskManager;
                             deskManager = hit.transform.gameObject.GetComponent<DeskManager>();
-                            if (deskManager && isObjectSelected && m_CurrentPhase == Phase.Phase1)
+                            if (deskManager && isObjectSelected && m_CurrentPhase == Phase.Phase1 && !isMatchSelected && !isDecorationSelected)
                             {
                                 deskManager.SelectObject(m_selectedObject.gameObject);
                                 ReleaseObject();

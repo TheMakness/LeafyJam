@@ -11,6 +11,11 @@ public class SelectableObject : MonoBehaviour
         transform.position = position;
     }
 
+    public void Rotate(Vector3 rotation)
+    {
+        rotationAnchor.transform.Rotate(rotation);
+    }
+
     public void NewSelection()
     {
         EndEvent.Invoke();
