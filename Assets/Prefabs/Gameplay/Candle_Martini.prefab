@@ -123,6 +123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_Martini
       objectReference: {fileID: 0}
+    - target: {fileID: 993669031763619082, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1236
+      objectReference: {fileID: 0}
     - target: {fileID: 2472389240574828076, guid: 222694e8b7bdd6d4c8c94f663bfa1368, type: 3}
       propertyPath: m_Height
       value: 0.29188332

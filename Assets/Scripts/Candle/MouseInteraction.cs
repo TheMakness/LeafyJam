@@ -18,9 +18,11 @@ public class MouseInteraction : MonoBehaviour
     [SerializeField] private GameObject m_ValidationPrefab;
     private Vector3 mousePosition;
     private Vector3 mouseDirection;
+
     private bool isObjectSelected;
     private bool isRotating;
     private bool isDecorationSelected;
+    private bool isMatchSelected;
 
     private Vector3 m_prevPos;
     private Vector3 m_posDelta;
@@ -91,11 +93,12 @@ public class MouseInteraction : MonoBehaviour
         {
             Mouse.current.WarpCursorPosition(Camera.main.WorldToScreenPoint(currentselectedObject.transform.position));
             SelectObject(currentselectedObject);
+            if (m_CurrentPhase == Phase.Phase1)
+            {
+                Instantiate(m_ValidationPrefab, m_selectedObject.transform.position, Quaternion.identity);
+            }
         }
-        if (m_CurrentPhase == Phase.Phase1)
-        {
-            Instantiate(m_ValidationPrefab, m_selectedObject.transform.position, Quaternion.identity);
-        }
+        
         
 
         m_CurrentPhase = (Phase)((((int)m_CurrentPhase) + 1) % 2);
@@ -158,7 +161,10 @@ public class MouseInteraction : MonoBehaviour
         isObjectSelected = false;
         m_selectedObject = null;
         isDecorationSelected = false;
+        isMatchSelected = false;
     }
+
+    
 
     private void OnLeftMouseClick()
     {
@@ -172,32 +178,42 @@ public class MouseInteraction : MonoBehaviour
             {
                 if (!isDecorationSelected) //C'est une bougie
                 {
-                    return;
+                    selectObject.gameObject.GetComponent<CandleInteraction>()?.ChangeWick();
                 }
-                
+
             }
-                
+
             else
             {
                 ShelfCase shelfCase = hit.transform.gameObject.GetComponent<ShelfCase>();
                 if (shelfCase && m_CurrentPhase == Phase.Phase2)
                 {
-                    if (isObjectSelected && !m_selectedObject.GetComponent<CandleInteraction>())
+                    if (isMatchSelected)
+                    {
+                        shelfCase.m_ContainingObject.gameObject.GetComponent<CandleInteraction>().Ignite();
+                        return;
+                    }
+
+                    if (isObjectSelected && !m_selectedObject.GetComponent<CandleInteraction>() && !isMatchSelected )
                     {
                         return;
                     }
 
+                    
                     SelectableObject returnObject = shelfCase.Interact(m_selectedObject);
                     if (returnObject)
                     {
+                        returnObject.gameObject.GetComponent<CandleInteraction>().Extinguish();
                         if (isObjectSelected)
+                        {
                             ReleaseObject();
+                        }
                         SelectObject(returnObject);
-                        
                     }
                     else
                     {
-                       ReleaseObject();
+                        
+                        ReleaseObject();
                     }
                 }
                 else
@@ -205,7 +221,7 @@ public class MouseInteraction : MonoBehaviour
                     Container container;
                     container = hit.transform.gameObject.GetComponent<Container>();
                     if (container && m_CurrentPhase == Phase.Phase1)
-                    container.Interact();
+                        container.Interact();
 
                     else
                     {
@@ -231,7 +247,7 @@ public class MouseInteraction : MonoBehaviour
                                 decorationSpawner = hit.transform.gameObject.GetComponent<DecorationSpawner>();
                                 if (decorationSpawner && !isObjectSelected && m_CurrentPhase == Phase.Phase1)
                                 {
-                                   SelectObject(Instantiate(decorationSpawner.Prefab,mousePosition,Quaternion.identity).GetComponent<SelectableObject>());
+                                    SelectObject(Instantiate(decorationSpawner.Prefab, mousePosition, Quaternion.identity).GetComponent<SelectableObject>());
                                 }
 
                                 else
@@ -240,17 +256,28 @@ public class MouseInteraction : MonoBehaviour
                                     colorSelector = hit.transform.gameObject.GetComponent<ColorSelector>();
                                     if (colorSelector && m_CurrentPhase == Phase.Phase1)
                                     {
-                                       colorSelector.Interact();
+                                        colorSelector.Interact();
+                                    }
+
+                                    else
+                                    {
+                                        MatchJar matchJar;
+                                        matchJar = hit.transform.gameObject.GetComponent<MatchJar>();
+                                        if (matchJar && m_CurrentPhase == Phase.Phase2 && !isObjectSelected)
+                                        {
+                                            SelectObject(Instantiate(matchJar.Prefab, mousePosition, Quaternion.identity ).GetComponent<SelectableObject>());
+                                            isMatchSelected = true;
+                                        }
                                     }
                                 }
                             }
                         }
                     }
                 }
+
             }
-            
+
         }
-            
        
     }
 

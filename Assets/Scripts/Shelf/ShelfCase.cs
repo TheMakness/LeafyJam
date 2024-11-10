@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShelfCase : MonoBehaviour
 {
-    [SerializeField] private SelectableObject m_ContainingObject;
+    [SerializeField] public SelectableObject m_ContainingObject;
     [SerializeField] private float m_size = 1;
     [SerializeField] private GameObject m_anchor;
     private Vector3 m_spawnPosition;

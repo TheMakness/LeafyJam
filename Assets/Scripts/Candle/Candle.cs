@@ -7,6 +7,9 @@ public class CandleInteraction : MonoBehaviour
 {
     [SerializeField] private Wax wax;
     [SerializeField] private GameObject rotatingAnchor;
+    [SerializeField] private GameObject[] wick;
+    [SerializeField] private int currentWick;
+
     [SerializeField] List<Decoration> decorations = new List<Decoration>();
 
 
@@ -31,5 +34,22 @@ public class CandleInteraction : MonoBehaviour
     {
         Renderer r = wax.gameObject.GetComponent<Renderer>();
         r.material.color = color;
+    }
+
+    public void ChangeWick()
+    {
+        wick[currentWick].SetActive(false);
+        currentWick = (currentWick + 1) % wick.Length;
+        wick[currentWick].SetActive(true);
+    }
+
+    public void Ignite()
+    {
+        wick[currentWick].GetComponentInChildren<ParticleSystem>().Play();
+    }
+
+    public void Extinguish()
+    {
+        wick[currentWick].GetComponentInChildren<ParticleSystem>().Stop();
     }
 }
