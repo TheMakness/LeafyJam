@@ -1,8 +1,18 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class MouseInteraction : MonoBehaviour
 {
+    public UnityEvent SwitchPhaseEvent;
+
+    public enum Phase
+    {
+        Phase1,
+        Phase2,
+    }
+    [SerializeField] private Phase m_CurrentPhase;
     [SerializeField] private SelectableObject m_selectedObject;
     [SerializeField] private SelectableObject m_rotatingObject;
     private Vector3 mousePosition;
@@ -73,6 +83,18 @@ public class MouseInteraction : MonoBehaviour
         }
     }
 
+    public void SwitchPhase(SelectableObject currentselectedObject)
+    {
+        m_CurrentPhase = (Phase)((((int)m_CurrentPhase) + 1) % 2);
+        if (currentselectedObject)
+        {
+            Mouse.current.WarpCursorPosition(Camera.main.WorldToScreenPoint(currentselectedObject.transform.position));
+            SelectObject(currentselectedObject);
+        }
+            
+        SwitchPhaseEvent.Invoke();
+    }
+
     private void MoveDecoration()
     {
         Ray ray = Camera.main.ScreenPointToRay(mousePosition);
@@ -140,11 +162,18 @@ public class MouseInteraction : MonoBehaviour
         {
             SelectableObject selectObject = hit.transform.gameObject.GetComponent<SelectableObject>();
             if (selectObject && !isObjectSelected)
-                SelectObject(selectObject);
+            {
+                if (!isDecorationSelected) //C'est une bougie
+                {
+                    return;
+                }
+                
+            }
+                
             else
             {
-                ShelfCase shelfCase;
-                if (shelfCase = hit.transform.gameObject.GetComponent<ShelfCase>())
+                ShelfCase shelfCase = hit.transform.gameObject.GetComponent<ShelfCase>();
+                if (shelfCase && m_CurrentPhase == Phase.Phase2)
                 {
                     if (isObjectSelected && !m_selectedObject.GetComponent<CandleInteraction>())
                     {
@@ -168,7 +197,7 @@ public class MouseInteraction : MonoBehaviour
                 {
                     Container container;
                     container = hit.transform.gameObject.GetComponent<Container>();
-                    if (container)
+                    if (container && m_CurrentPhase == Phase.Phase1)
                     container.Interact();
 
                     else
@@ -184,7 +213,7 @@ public class MouseInteraction : MonoBehaviour
                         {
                             DeskManager deskManager;
                             deskManager = hit.transform.gameObject.GetComponent<DeskManager>();
-                            if (deskManager && isObjectSelected)
+                            if (deskManager && isObjectSelected && m_CurrentPhase == Phase.Phase1)
                             {
                                 deskManager.SelectObject(m_selectedObject.gameObject);
                                 ReleaseObject();
@@ -193,9 +222,19 @@ public class MouseInteraction : MonoBehaviour
                             {
                                 DecorationSpawner decorationSpawner;
                                 decorationSpawner = hit.transform.gameObject.GetComponent<DecorationSpawner>();
-                                if (decorationSpawner && !isObjectSelected)
+                                if (decorationSpawner && !isObjectSelected && m_CurrentPhase == Phase.Phase1)
                                 {
                                    SelectObject(Instantiate(decorationSpawner.Prefab,mousePosition,Quaternion.identity).GetComponent<SelectableObject>());
+                                }
+
+                                else
+                                {
+                                    ColorSelector colorSelector;
+                                    colorSelector = hit.transform.gameObject.GetComponent<ColorSelector>();
+                                    if (colorSelector && m_CurrentPhase == Phase.Phase1)
+                                    {
+                                       colorSelector.Interact();
+                                    }
                                 }
                             }
                         }

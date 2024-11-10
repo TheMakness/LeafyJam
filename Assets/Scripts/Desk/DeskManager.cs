@@ -1,20 +1,25 @@
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class DeskManager : MonoBehaviour
 {
     [SerializeField] private GameObject m_deskAnchor;
     [SerializeField] private Collider m_deskCollider;
-    private SelectableObject m_selectableObject;
-    
+    [SerializeField] private Button m_button;
+    [SerializeField] private MouseInteraction m_mouseInteraction;
+    public SelectableObject m_selectableObject;
 
+
+  
+   
     public void SpawnObject(GameObject go)
     {
 
         if (!m_selectableObject)
         {
-            m_selectableObject = Instantiate(go, m_deskAnchor.transform).GetComponent<SelectableObject>();
-            m_selectableObject.EndEvent.AddListener(UnSelect);
+            SelectObject(Instantiate(go, m_deskAnchor.transform).GetComponent<SelectableObject>().gameObject);
+           
         }
         else
         {
@@ -39,10 +44,15 @@ public class DeskManager : MonoBehaviour
     }
 
     private void UnSelect() 
-    { 
+    {
             m_deskCollider.enabled = true;
             m_selectableObject.EndEvent.RemoveAllListeners();
             m_selectableObject = null; 
     }
-    
+
+    public void UseButton()
+    {
+        m_mouseInteraction.SwitchPhase(m_selectableObject);
+
+    }
 }

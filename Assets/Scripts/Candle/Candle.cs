@@ -26,4 +26,10 @@ public class CandleInteraction : MonoBehaviour
     {
         return wax.GetComponent<MeshCollider>().ClosestPoint(currentPos);
     }
+
+    public void ChangeWaxColor(Color color)
+    {
+        Renderer r = wax.gameObject.GetComponent<Renderer>();
+        r.material.color = color;
+    }
 }
