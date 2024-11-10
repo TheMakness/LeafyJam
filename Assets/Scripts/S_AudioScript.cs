@@ -4,11 +4,11 @@ using UnityEngine.Audio;
 using Random = UnityEngine.Random;
 
 
- 
-public class S_ThemeScript : MonoBehaviour
+
+public class S_AudioScript : MonoBehaviour
 {
     public S_SoundParameters[] _Sounds;
-    public static S_ThemeScript s_Instance;
+    public static S_AudioScript s_Instance;
 
     [SerializeField] private bool m_PlaySound;
 
@@ -37,8 +37,6 @@ public class S_ThemeScript : MonoBehaviour
             s._Source.loop = s._Loop;
         }
 
-        Play("Theme");
-        Play("Birds");
     }
 
 
