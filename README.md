@@ -1,4 +1,4 @@
-# Wick & Waxy
+# Wick & Waxy -> https://starringmoon.itch.io/wick-waxy
 
 **Wick & Waxy** is a cozy, autumn-inspired candle-making game created for LeafyJam.  
 Developed with love by **starringmoon**, **Intox_x**, **Nessy**, and **Makness**, this charming sim invites players to embrace the warm world of candle crafting. :contentReference[oaicite:0]{index=0}
@@ -44,16 +44,3 @@ Playable in-browser (HTML5) and on Windows — gives flexibility depending on pl
 > "As someone that loves to make candles, must say the game is pretty accurate and fun!"  
 > – phscardona :contentReference[oaicite:6]{index=6}
 
----
-
-##  How to Play
-
-- **Web**: Click "Run game" on the itch.io page to play instantly.  
-- **Windows**: Download the `WickAndWaxy.zip` (≈47 MB) and extract to run the executable locally. :contentReference[oaicite:7]{index=7}
-
----
-
-##  Visual & Audio Style
-
-- **Graphics**: A mix of low-poly and pixel-art that delivers a cozy, handcrafted ambiance .  
--
