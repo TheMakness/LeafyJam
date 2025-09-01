@@ -17,7 +17,7 @@ Developed with love by **starringmoon**, **Intox_x**, **Nessy**, and **Makness**
 
 ##  Team & Roles
 
-- **Code**: Makness & Intox_x  
+- **Code**: Makness
 - **VFX / SFX**: Intox_x & Nessy  
 - **Visual Assets**: Nessy & starringmoon  
 - **Music**: starringmoon
